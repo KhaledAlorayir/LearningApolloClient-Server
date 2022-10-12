@@ -1,0 +1,54 @@
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.imgs div img {
+  height: 25rem;
+  cursor: pointer;
+}
+
+.imgs div:hover {
+  opacity: 0.8;
+}
+
+.my {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mx {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.add input {
+  width: 100%;
+}
+
+.add button {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
